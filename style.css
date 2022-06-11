@@ -1,0 +1,47 @@
+*{
+    box-sizing:border-box;
+    font-size: 32px;
+    font-family: 'Jua', sans-serif;
+}
+/*
+body{
+    margin: 0;
+    color: white;
+    background-color: #5F58C4;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock{
+    background-color: #538ED6;
+    min-width: 360px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+#today{
+    margin-bottom: 10px;
+}
+#time{
+    margin-top: 10px;
+}
+ 
+.alarm{
+    background-color: #6DAEE0;
+    min-width: 360px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+.button {
+    background-color: #6395C6;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+*/
