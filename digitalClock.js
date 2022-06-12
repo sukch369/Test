@@ -6,8 +6,8 @@ function getTime() {
   let year = now.getFullYear(); //년
   let month = now.getMonth() + 1; //월 1-12
   let day = now.getDate(); //일 1-31
-  let dayNumber = now.getDay(); //요일 1-7
-  const dayList = ["월", "화", "수", "목", "금", "토", "일"];
+  let dayNumber = now.getDay(); //요일 0-6
+  const dayList = ["일", "월", "화", "수", "목", "금", "토"];
   let hour = now.getHours(); //시 0-23
   let minute = now.getMinutes(); //분 0-59
   let second = now.getSeconds(); //초 0-59
@@ -39,7 +39,7 @@ function getTime() {
   }
 
   todayDiv.textContent =
-    year + "-" + month + "-" + day + " " + dayList[dayNumber - 1];
+    year + "-" + month + "-" + day + " " + dayList[dayNumber];
   timeDiv.textContent = noon + " " + hour + ":" + minute + ":" + second;
 }
 getTime();
